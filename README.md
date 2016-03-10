@@ -1,3 +1,14 @@
+# 三凡物联网服务器协议说明文档
+
+服务器通信使用基于**http**的**rest**协议，并不完全准守restful规范标准。
+
+根据实际情况设计服务器内部和外部的协议规则。
+
+## 内部协议 localhost ##
+### MongoDB协议 ###
+- **/项目名称/add** 增加数据内容放在request的body中，json格式
+
+
 # protocol
 protocol for restful
 ## Welcome to MarkdownPad 2 ##
@@ -30,6 +41,4 @@ MarkdownPad supports multiple Markdown processing engines, including standard Ma
 
 With a tabbed document interface, PDF export, a built-in image uploader, session management, spell check, auto-save, syntax highlighting and a built-in CSS management interface, there's no limit to what you can do with MarkdownPad.
 
-# 三凡物联网服务器协议说明文档
-服务器通信使用基于http的rest协议，并不完全准守restful规范标准。
-根据实际情况设计内部和外部的协议规则。
+
