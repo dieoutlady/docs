@@ -5,25 +5,35 @@
 根据实际情况设计服务器内部和外部的协议规则。
 
 ## 内部协议 localhost ##
-### MongoDB协议 端口41111###
-- **/add**   
+### MongoDB协议 端口41111 ###
+- /add
 参数：无  
 body：json  
 操作：增加数据  
 返回：无  
 
 - **/history** 
-参数：skip跳过的数据数量，limit取得多少数据
-body：无
-操作：取得历史数据
-返回：json
+参数：skip跳过的数据数量，limit取得多少数据  
+body：无   
+操作：取得历史数据   
+返回：json  
 
 - **/total** 
-参数：无
-body：无
-操作：取得数据总量
-返回：json
+参数：无  
+body：无  
+操作：取得数据总量  
+返回：json  
 
+### 大数据模块 端口30911 ###
+- **/search** 
+参数：无  
+body：无  
+操作：取得数据总量  
+返回：json  
+
+### WebSocket模块 ###
+- **/项目名称** 
+- **rest监听**
 
 # protocol
 protocol for restful
