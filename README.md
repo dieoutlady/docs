@@ -6,11 +6,11 @@
 
 ## 内部协议 localhost ##
 ### MongoDB协议 端口41111###
-- **/add** 
-参数：无
-body：json
-操作：增加数据
-返回：无
+- **/add**   
+参数：无  
+body：json  
+操作：增加数据  
+返回：无  
 
 - **/history** 
 参数：skip跳过的数据数量，limit取得多少数据
