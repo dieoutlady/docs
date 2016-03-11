@@ -22,28 +22,27 @@ string化的json，buffer化的json，或者json本身
 - **未带有某项说明者，此项为无数据**  
 - **项目的差异化部分。此文档不做说明。**
 
-## 内部协议 localhost 
 ### MongoDB协议 端口41111 
-- **/add 增加数据**  
+- **/add** 增加数据  
 body：json  
 
-- **/history 取得历史数据**  
-参数：**skip**跳过的数量，**limit**数量限制  
+- **/history** 取得历史数据  
+参数：**skip**<跳过的数量>，**limit**<数量限制>  
 返回：json  
 
-- **/total 数据数量**  
+- **/total** 数据数量  
 返回：json  
 
 ### 大数据模块 端口30911
-- **/search** 
-参数：无  
-body：无  
-操作：取得数据总量  
+- **/search** 数据索搜
+参数：**skip**<跳过的数量>，**limit**<数量限制>  
 返回：json  
 
 ### WebSocket模块
-- **/项目名称** 
-- **rest监听**
+- **REST 数据接收 端口32200**  
+- - 顶顶顶
+
+- **WebSocket 数据发送 端口32201**
 
 # protocol
 protocol for restful
