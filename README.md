@@ -5,7 +5,7 @@
 ### 数据格式 ###
 - **所有数据为json格式**  
 string化的json，buffer化的json，或者json本身  
-如果请求失败则返回**{ret:原因编码}**
+如果请求失败则返回**{ret:原因编码}**   
 ### 默认参数 ###
 - **参数中带project字段以区分项目**  
 比如**?project=ligong_water**
