@@ -40,8 +40,11 @@ string化的json，buffer化的json，或者json本身
 
 ### WebSocket模块
 - **REST 数据接收 端口32200**  
-- - **/count** 请求在线人数 返回：json 
-- - **/runtime** 提交实时数据 body：json
+
+- - **/count** 请求在线人数  
+返回：json  
+- - **/runtime** 提交实时数据  
+body：json  
 
 
 - **WebSocket 数据发送 端口32201**
