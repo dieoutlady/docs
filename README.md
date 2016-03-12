@@ -44,9 +44,9 @@ string化的json，buffer化的json，或者json本身
 ### WebSocket模块
 - **REST 数据接收 端口32200**  
 
-- - **/count** 请求在线人数  
+- - **/count**<请求在线人数>  
 返回：json  
-- - **/runtime** 提交实时数据  
+- - **/runtime**<提交实时数据>  
 body：json  
 
 
@@ -58,7 +58,7 @@ body：json
 - **mqtt协议 端口1883**
 - **lora协议 端口1680**
 
-### Log模块，表名=项目名称
+### Log模块，表名=项目名称 端口10010
 - **/add**<存储日志>  
 body：json  
 - **/find**<日志查询>  
