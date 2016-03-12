@@ -26,18 +26,18 @@ string化的json，buffer化的json，或者json本身
 ## 协议说明
 
 ### MongoDB模块 端口41111 
-- **/add** 增加数据  
+- **/add**<增加数据>  
 --body：json  
 
-- **/history** 取得历史数据  
+- **/history**<取得历史数据>  
 参数：**skip**<跳过的数量>，**limit**<数量限制>  
 返回：json  
 
-- **/total** 数据数量  
+- **/total**<数据数量>  
 返回：json  
 
 ### 大数据模块 端口30911 对外
-- **/search** 数据索搜
+- **/search**<数据索搜>  
 参数：**skip**<跳过的数量>，**limit**<数量限制>  
 返回：json  
 
@@ -59,8 +59,8 @@ body：json
 - **lora协议 端口1680**
 
 ### Log模块，表名=项目名称
-- **存储日志**  
+- **/add**<存储日志>  
 body：json  
-- **日志查询**  
+- **/find**<日志查询>  
 参数：**skip**<跳过的数量>，**limit**<数量限制>  
 返回：json  
