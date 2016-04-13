@@ -9,6 +9,19 @@ Basic communication protocol between Lora gateway and server
 =============================================================
 
 
+
+<Buffer 80 协议头
+
+69 53 34 12 节点地址
+
+80 fc 01 未知
+
+0f 传感器端口号
+
+00 00 00 00 00 00 数据
+
+cc e4 e9 79  crc校验>
+
 1. Introduction
 ----------------
 
