@@ -14,7 +14,7 @@ data是lora中存放数据的部分。
 ### 解析说明
 - 40<协议头>size:1  
 - 40 00 00 86<节点地址>littleEndian,size:4  
-- 80<消息设置>  
+- 80<消息设置>size:1
 - 8b 05<消息序号>累加序号，littleEndian，反转高低位，size:2  
 - 0f<传感器编号>size:1  
 - 00<数据设置>size:1  
