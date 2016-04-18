@@ -20,4 +20,4 @@ data是lora中存放数据的部分。
 - 00<数据设置>size:1  
 - 00 00<数据>size:2  
 - 33 44 55<备用>size:3   
-- dc c8 5c 43<crc校验>size:4  
+- dc c8 5c 43 <crc校验> size:4  
